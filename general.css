@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 70%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #343a40;
+  margin: 3.2rem;
+}
+.nagłówek{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.imie {
+  font-size: 7rem;
+  text-transform: uppercase;
+  /* margin: 32px; */
+  padding: 1.2rem;
+  letter-spacing: 2rem;
+  /* margin-right: 900px; */
+}
+.zdjęcie{
+  /* margin-right: 50px; */
+  border-color: black;
+  border-radius: 50%;
+/* margin-bottom: 20px; */
+/* box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06); */
+}
+.stanowisko {
+  font-size: 3.6rem;
+  /* margin:32px; */
+  margin-top:2rem;
+  padding: 1.2rem;
+  border-bottom: solid 0.15rem #adb5bd;
+  border-top: solid 0.15rem #adb5bd;
+  letter-spacing: 0.5rem;
+}
+
+.opis {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+.naglowek {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+/* .marginesdolny{
+  margin-bottom: 15rem;
+} */
+.omnie {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 0.15rem #adb5bd;
+  margin-top:5.5rem;
+ margin-bottom: 1.5rem;
+ padding-bottom: 1rem;
+
+}
+
+.opis-ogolny{
+  margin-right:8rem;
+}
+.ikona {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #343a40;
+  margin-right: 2rem;
+}
+
+.tekst{
+  font-size: 1.8rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+.skrót{
+  font-size: 2rem;
+}
+.tekst-dane{
+  font-size:1.8rem;
+  margin:0 1.5rem 1.5rem 0;
+ font-weight: bold;
+}
+
+.miękkie{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top:6rem;
+}
+.twarde{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.doswiadczenie{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
+}
+.stare{
+  margin-bottom: 2rem;
+  margin-top:2rem;
+}
+.wykształcenie{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.stanowisko-nazwa{
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.grube{
+  font-weight: bold;
+}
+.firma{
+  font-style: italic;
+}
+.obowiazki{
+  line-height: 2.5rem;
+}
+
+.zakres{
+  margin-bottom: 1.5rem;
+}
+
+.projekty{
+  margin-top:3.6rem;
+}
+.projekt{
+  margin-bottom: 2rem;
+}
+.inwestycja{
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #adb5bd;
+  /* margin:32px; */
+  margin-top:25rem;
+}
